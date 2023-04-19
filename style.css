@@ -67,11 +67,16 @@ html{
   }
 }
 
+
+
 @media (max-width: 360px) {
   .presentacion {
     top: 50%;
     right: 3%;
   }
+  .Logocodocodo {
+  width: 30%;
+}
 }
 @media (max-width: 320px) {
   .presentacion {
@@ -86,6 +91,10 @@ html{
     padding-top: 230%;
     margin-left: -10%;
   }
+
+  .Logocodocodo {
+  width: 30%;
+}
 }
 
 .SECTION2 {
@@ -221,22 +230,40 @@ span {
     text-align: center;
     padding-top: 3%;
   }
+  
 }
 @media (max-width: 414px) {
   .centerr {
     color: #d7ebf5;
     background-color: #1e4c66;
-    height: 300px;
+    height: 350px;
     display: block;
     text-align: center;
     padding-top: 3%;
   }
+  .Logocodocodo {
+  width: 30%;
+}
 }
 @media (max-width: 412px) {
   .centerr {
     color: #d7ebf5;
     background-color: #1e4c66;
-    height: 300px;
+    height: 350px;
+    display: block;
+    text-align: center;
+    padding-top: 3%;
+  }
+  .Logocodocodo {
+  width: 30%;
+}
+}
+
+@media (max-width: 390px) {
+  .centerr {
+    color: #d7ebf5;
+    background-color: #1e4c66;
+    height: 350px;
     display: block;
     text-align: center;
     padding-top: 3%;
@@ -246,12 +273,27 @@ span {
   .centerr {
     color: #d7ebf5;
     background-color: #1e4c66;
-    height: 300px;
+    height: 350px;
+    display: block;
+    text-align: center;
+    padding-top: 3%;
+  }
+  .Logocodocodo {
+  width: 30%;
+}
+}
+
+@media (max-width: 375px) {
+  .centerr {
+    color: #d7ebf5;
+    background-color: #1e4c66;
+    height: 360px;
     display: block;
     text-align: center;
     padding-top: 3%;
   }
 }
+
 @media (max-width: 360px) {
   .centerr {
     color: #d7ebf5;
@@ -261,6 +303,7 @@ span {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    
   }
 }
 @media (max-width: 320px) {
