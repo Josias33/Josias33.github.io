@@ -54,6 +54,13 @@ html{
   color: #f7ffff;
 }
 
+@media (min-width: 576px) {
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+
 @media (max-width: 414px) {
   .presentacion {
     top: 50%;
@@ -218,6 +225,8 @@ span {
   margin-left: -4%;
   margin-top: -4px;
 }
+
+
 }
 @media (max-width: 622px) {
   .centerr {
@@ -234,6 +243,7 @@ span {
   margin-left: -4%;
   margin-top: -4px;
 }
+
 }
 @media (max-width: 616px) {
   .centerr {
@@ -270,6 +280,10 @@ span {
   margin-left: -4%;
   margin-top: -4px;
 }
+#navbarbrand {
+  color: #f7ffff;
+  margin-left: -5px;
+}
 }
 @media (max-width: 412px) {
   .centerr {
@@ -289,6 +303,10 @@ span {
   margin-left: -4%;
   margin-top: -4px;
 }
+#navbarbrand {
+  color: #f7ffff;
+  margin-left: -15px;
+}
 }
 
 @media (max-width: 390px) {
@@ -305,6 +323,10 @@ span {
   height: 450px;
   margin-left: -4%;
   margin-top: -4px;
+}
+#navbarbrand {
+  color: #f7ffff;
+  margin-left: -5px;
 }
 }
 @media (max-width: 384px) {
@@ -325,6 +347,10 @@ span {
   margin-left: -4%;
   margin-top: -4px;
 }
+#navbarbrand {
+  color: #f7ffff;
+  margin-left: -5px;
+}
 }
 
 @media (max-width: 375px) {
@@ -341,6 +367,10 @@ span {
   height: 450px;
   margin-left: -4%;
   margin-top: -4px;
+}
+#navbarbrand {
+  color: #f7ffff;
+  margin-left: -5px;
 }
 }
 
@@ -362,6 +392,10 @@ span {
   margin-left: -4%;
   margin-top: -4px;
 }
+#navbarbrand {
+  color: #f7ffff;
+  margin-left: -5px;
+}
 }
 @media (max-width: 320px) {
   .centerr {
@@ -379,6 +413,10 @@ span {
   margin-left: -4%;
   margin-top: -4px;
 }
+#navbarbrand {
+  color: #f7ffff;
+  margin-left: -5px;
+}
 }
 @media (max-width: 301px) {
   .centerr {
@@ -395,5 +433,9 @@ span {
   height: 450px;
   margin-left: -4%;
   margin-top: -4px;
+}
+#navbarbrand {
+  color: #f7ffff;
+  margin-left: -5px;
 }
 }
