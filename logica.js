@@ -33,7 +33,7 @@ function validaFormu(event) {
 
 if (!(cantidad != "")) {
   const totalAPagar = document.getElementById("totalAPagar");
-  totalAPagar.innerHTML = `Cantidad es obligatorio &#129045;`;
+  totalAPagar.innerHTML = `Cantidad es obligatorio &#10803;`;
 } else {
   const totalAPagar = document.getElementById("totalAPagar");
   totalAPagar.innerHTML = `Total a pagar:&#36; ${descuento} &#10087;`;
