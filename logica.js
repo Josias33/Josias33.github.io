@@ -39,8 +39,7 @@ if (cantidad === "") {
   totalAPagar.innerHTML = `Total a pagar:&#36; ${descuento} &#10087;`;
 }
 
-
-  
 }
 
 formu.addEventListener("submit", validaFormu);
+//ddd
