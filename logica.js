@@ -31,9 +31,9 @@ function validaFormu(event) {
     descuento = subTotal - descuento;
   }
 
-if (cantidad === "") {
-   const totalAPagar = document.getElementById("totalAPagar");
-   totalAPagar.innerHTML = `Cantidad es obligatorio &#129045;`;
+if (!(cantidad != "")) {
+  const totalAPagar = document.getElementById("totalAPagar");
+  totalAPagar.innerHTML = `Cantidad es obligatorio &#129045;`;
 } else {
   const totalAPagar = document.getElementById("totalAPagar");
   totalAPagar.innerHTML = `Total a pagar:&#36; ${descuento} &#10087;`;
