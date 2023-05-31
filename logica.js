@@ -10,7 +10,7 @@ function validaFormu(event) {
   const cantidad = document.getElementById("cantidad").value;
   const categoria = document.getElementById("categoria").value;
 
-  if (!(cantidad != "" )) {
+  if (!(cantidad != "")) {
   
     document.getElementById("cantidad").focus();
   }
@@ -31,15 +31,16 @@ function validaFormu(event) {
     descuento = subTotal - descuento;
   }
 
-if (!(cantidad != "")) {
-  const totalAPagar = document.getElementById("totalAPagar");
-  totalAPagar.innerHTML = `Cantidad es obligatorio &#10803;`;
-} else {
-  const totalAPagar = document.getElementById("totalAPagar");
-  totalAPagar.innerHTML = `Total a pagar:&#36; ${descuento} &#10087;`;
-}
-
+  if (!(cantidad != "")) {
+    const totalAPagar = document.getElementById("totalAPagar");
+    totalAPagar.innerHTML = `Cantidad es obligatorio &#10803;`;
+  } else if (cantidad <= 0) {
+     const totalAPagar = document.getElementById("totalAPagar");
+     totalAPagar.innerHTML = `Campos mal puesto &#10803;`;
+  } else {
+    const totalAPagar = document.getElementById("totalAPagar");
+    totalAPagar.innerHTML = `Total a pagar: &#36; ${descuento} &#10087;`;
+  }
 }
 
 formu.addEventListener("submit", validaFormu);
-//ddd
