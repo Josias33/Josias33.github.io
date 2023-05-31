@@ -44,3 +44,4 @@ function validaFormu(event) {
 }
 
 formu.addEventListener("submit", validaFormu);
+///
